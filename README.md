@@ -1,4 +1,4 @@
-readme_content = """# Basic Web Knowledge
+# Basic Web Knowledge
 
 This repository contains a PDF guide named **Basic Web Knowledge**, which provides an introduction to core web concepts including the Internet, HTTP/HTTPS, domain names, URLs, and DNS.
 
@@ -43,11 +43,3 @@ Click below to view or download the PDF:
 ---
 
 ✏ *To explore the detailed explanations, open the PDF file included in this repository.*
-"""
-
-# Save the README.md file
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
